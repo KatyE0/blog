@@ -1,0 +1,89 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #EDE9E3 ;
+}
+/* colores
+#EDE9E3    OLIVA
+#E7D7C9    AMARILLO
+#D4B2A7    NARANJA
+#CDC6C3    GRIS
+#A38F85   CAFE
+*/
+
+header {
+    background-color: #D4B2A7 ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    background-color: #E7D7C9 ;
+
+    border-radius: 10px;
+    padding: .5rem;
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+main {
+    /* background-color: palegreen; */
+    padding: .5rem 2.5rem ;
+
+}
+section {
+    background-color: #A38F85;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    padding: .5rem;
+}
+h2 {
+    padding-bottom: .5rem;
+}
+
+img {
+ 
+    height: 200px;
+}
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #CDC6C3;
+}
+.card p {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.viajes {
+   
+
+}
+.galeria_libros {
+   
+}
+.mascot {
+    display: flex;
+}
